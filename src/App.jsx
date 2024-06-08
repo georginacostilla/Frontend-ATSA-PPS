@@ -1,11 +1,11 @@
-import Login from './page/login/Login.jsx';
+import { Routes } from 'react-router-dom';
 import '../src/App.css';
 
 function App() {
 
   return (
     <>
-      <Login />
+      <Routes />
     </>
   )
 }

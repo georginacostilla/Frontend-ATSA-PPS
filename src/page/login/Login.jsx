@@ -1,5 +1,5 @@
 import { Button, Form } from 'react-bootstrap';
-import { FaUser } from 'react-icons/fa';
+// import { logo } from '../../img/logo-atsa.jpeg';
 import '../login/login.css';
 
 const Login = () => {
@@ -7,9 +7,7 @@ const Login = () => {
         <>
             <div className='container text-center'>
                 <Form>
-                    <div className="mt-3 mb-3">
-                        <FaUser className="m-4" size={30} />
-                    </div>
+                    {/* <Image src={logo} alt="logo de ATSA" /> */}
                     <Form.Group className="mt-3 mb-3 w-50" controlId="formBasicEmail">
                         <Form.Label>Correo electrónico</Form.Label>
                         <Form.Control type="email" placeholder="Ingresar correo electrónico" />
