@@ -1,45 +1,35 @@
+import { Button, Form } from 'react-bootstrap';
 import { FaUser } from 'react-icons/fa';
 import '../login/login.css';
 
 const Login = () => {
     return (
         <>
-            <div className="container containerlogin mt-5 mb-5">
-                <div className="row justify-content-center">
-                    <div className="col-md-6">
-                        <div className="mb-4" id='card'>
-                            <h1 className="text-center h2 mt-4 mb-4">INICIAR SESIÓN</h1>
-                        </div>
+            <div className='container text-center'>
+                <Form>
+                    <div className="mt-3 mb-3">
+                        <FaUser className="m-4" size={30} />
                     </div>
-                </div>
-            </div>
-            <form>
-                <div className="card-body">
-                    <div className="mb-3 text-center">
-                        <FaUser className="user-icon" size={50} />
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="usuario" className="form-label textologin">Email</label>
-                        <input type="text" className="form-control" id="usuario" />
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="contrasena" className="form-label textologin">Contraseña</label>
-                        <input type="password" className="form-control" id="contrasena" />
-                    </div>
-                    <div className="mb-2 form-check form-check-inline d-flex align-items-center justify-content-center">
-                        <input type="checkbox" className="form-check-input" id="recordar" />
-                        <label className="form-check-label mx-2" htmlFor="recordar">Recordar sesión</label>
-                    </div>
-                    <div className="mb-4 text-center">
-                        <button type="submit" className="btn botonlogin btn-block">Iniciar sesión</button>
-                        <div className="mt-3">
-                            {/* <Link to="/register" className='mensajelogin'>¿Aún no tienes cuenta?, ¡regístrate!</Link> */}
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </>
+                    <Form.Group className="mt-3 mb-3 w-50" controlId="formBasicEmail">
+                        <Form.Label>Correo electrónico</Form.Label>
+                        <Form.Control type="email" placeholder="Ingresar correo electrónico" />
+                        <Form.Text className="text-muted">
+                        </Form.Text>
+                    </Form.Group>
 
+                    <Form.Group className="mt-3 mb-3 w-50" controlId="formBasicPassword">
+                        <Form.Label>Contraseña</Form.Label>
+                        <Form.Control type="password" placeholder="Ingresar contraseña" />
+                    </Form.Group>
+                    <Button variant="primary" type="submit" className='mt-2 mb-2'>
+                        Iniciar sesión
+                    </Button>
+                    <div className="mt-3">
+                        ¿Aún no tienes cuenta?, ¡Regístrate!
+                    </div>
+                </Form>
+            </div>
+        </>
     )
 }
 

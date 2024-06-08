@@ -12,33 +12,10 @@
     background-color: var(--color-secundario);
 }
 
-.links {
-    text-decoration: none;
-    color: var(--color-primario);
-}
-
-.links:hover {
-    color: var(--color-secundarioDos);
-}
-
-.user-icon {
-    margin: 20px;
-}
-
-.mensajelogin {
-    color: var(--fuente-color-secundario);
-}
-
-.mensajelogin:hover {
-    color: var(--color-secundarioDos);
-}
-
 .containerlogin {
-
     border-radius: 10px;
     border: 2px solid var(--color-primario);
     padding: 20px;
-
 }
 
 .containerlogin:hover {
