@@ -1,6 +1,5 @@
 import { Button, Form } from 'react-bootstrap';
 // import { logo } from '../../img/logo-atsa.jpeg';
-import '../login/login.css';
 
 const Login = () => {
     return (
