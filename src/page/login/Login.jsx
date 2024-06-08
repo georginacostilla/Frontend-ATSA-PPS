@@ -1,12 +1,10 @@
 import { Button, Form } from 'react-bootstrap';
-// import { logo } from '../../img/logo-atsa.jpeg';
 
 const Login = () => {
     return (
         <>
             <div className='container text-center'>
                 <Form>
-                    {/* <Image src={logo} alt="logo de ATSA" /> */}
                     <Form.Group className="mt-3 mb-3 w-50" controlId="formBasicEmail">
                         <Form.Label>Correo electrónico</Form.Label>
                         <Form.Control type="email" placeholder="Ingresar correo electrónico" />
