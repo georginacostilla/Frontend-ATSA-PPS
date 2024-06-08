@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Login from '../../page/login/Login';
 
-const Route = () => {
+const Rutas = () => {
     return (
         <>
             <Routes>
-               <Route path="/login" element={<Login />} />
+                <Route path="/logueo" element={<Login />} />
             </Routes>
         </>
     )
 }
 
-export default Route
+export default Rutas
