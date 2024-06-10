@@ -1,15 +1,15 @@
-import UserContext from './context/UserContext';
-import Rutas from './components/routes/Rutas';
-import Footer from './components/footer/Footer';
+/* import UserContext from './context/UserContext'; */
+/* import Rutas from './components/routes/Rutas'; */
+import Footer from '../src/components/footer/Footer';
 import '../src/App.css';
 
 function App() {
 
   return (
     <>
-      <UserContext>
+     {/*  <{UserContext>
         <Rutas />
-      </UserContext>
+      </UserContext>} */}
       <Footer />
     </>
   )

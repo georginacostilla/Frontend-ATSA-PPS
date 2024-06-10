@@ -1,12 +1,13 @@
 import { FaEnvelope, FaFacebook, FaInstagram} from 'react-icons/fa';
 import '../footer/Footer.css'
+
 const Footer = () => {
   return (
     <footer className="p-5 color-fondo">
       <div className="container centrar">
         <div className="row">
           <div className="col-md-4 mt-4">
-            <ul className="list-unstyled d-flex flex-row gap-2 justify-content-center">
+            <ul className="list-unstyled tamanio-iconos d-flex flex-row gap-5 justify-content-center">
               <li className="mt-3">
               </li>
               <li className="mt-3">
