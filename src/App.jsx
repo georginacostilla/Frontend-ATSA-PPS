@@ -1,6 +1,6 @@
 import UserContext from './context/UserContext';
 import Rutas from './components/routes/Rutas';
-import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer.jsx';
 import '../src/App.css';
 
 function App() {

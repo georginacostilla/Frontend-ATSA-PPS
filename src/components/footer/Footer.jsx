@@ -1,32 +1,38 @@
-import { FaEnvelope, FaFacebook, FaInstagram} from 'react-icons/fa';
-import '../footer/Footer.css'
+import { FaEnvelope, FaFacebook, FaInstagram } from 'react-icons/fa';
+import logoImg from '../../assets/media/logo-atsa-removebg.png';
+import '../footer/Footer.css';
+
 const Footer = () => {
   return (
-    <footer className="p-5 color-fondo">
-      <div className="container centrar">
-        <div className="row">
-          <div className="col-md-4 mt-4">
-            <ul className="list-unstyled d-flex flex-row gap-2 justify-content-center">
+    <footer className="p-5 color-fondo mt-5">
+      <div className="container d-flex flex-column justify-content-center align-items-center">
+        <div className='row d-flex flex-column text-center'>
+          <div className='col-md-12 mt-2'>
+            <img src={logoImg} className='imgLogoATSA' alt="Logo de ATSA" />
+          </div>
+
+          <div className="col-md-12 mt-3">
+            <ul className="list-unstyled d-flex flex-row gap-3 justify-content-center me-3 tamanioRedes">
               <li className="mt-3">
               </li>
               <li className="mt-3">
-                <a href="https://cent74atsatucuman.ar/" target='_blank'><FaEnvelope/></a>
+                <a href="https://cent74atsatucuman.ar/" target='_blank' className='tamanioRedes'><FaEnvelope /></a>
               </li>
               <li className="mt-3">
-              <a href="https://www.instagram.com/atsa.tucuman/" target='_blank'><FaInstagram/></a>
+                <a href="https://www.instagram.com/atsa.tucuman/" target='_blank' className='tamanioRedes'><FaInstagram /></a>
               </li>
               <li className="mt-3">
-                <a href="https://www.facebook.com/groups/487694001671842/?locale=es_LA" target='_blank'><FaFacebook /></a>
+                <a href="https://www.facebook.com/groups/487694001671842/?locale=es_LA" target='_blank' className='tamanioRedes'><FaFacebook /></a>
               </li>
             </ul>
           </div>
-        </div>
-        <div className="row">
-          <p> &copy; Sistema Cent 74 2024 - Todos los derechos reservados</p>
+
+          <div className='col-md-12 mt-3'>
+            <p> &copy; Sistema C.E.N.T. n° 74 2024 - Todos los derechos reservados </p>
+          </div>
         </div>
       </div>
     </footer>
-
   )
 }
 
