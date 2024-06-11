@@ -7,8 +7,8 @@ import "../src/App.css";
 function App() {
   return (
     <>
-      <Navigator />
       <UserContext>
+        <Navigator />
         <Rutas />
       </UserContext>
       <Footer />

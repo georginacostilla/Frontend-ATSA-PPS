@@ -1,4 +1,4 @@
-import { Form, Button, Row, Col } from "react-bootstrap"
+import { Form, Button, Row, Col } from "react-bootstrap";
 
 const Register = () => {
   return (
