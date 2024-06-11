@@ -1,0 +1,29 @@
+.color-fondo {
+  background-color: var(--color-primarioDos);
+}
+
+.imgLogoATSA {
+  width: 120px;
+  height: 120px;
+}
+
+.tamanioRedes {
+  font-size: 25px;
+  color: var(--color-secundarioDos);
+}
+
+.tamanioRedes:hover {
+  color: var(--color-secundario);
+}
+
+/* login */
+
+.containerlogin {
+  border-radius: 10px;
+  border: 1px solid var(--fuente-color-secundarioDos);
+  padding: 50px;
+}
+
+.containerlogin:hover {
+  box-shadow: 0px 5px 10px var(--color-secundarioDos);
+}
