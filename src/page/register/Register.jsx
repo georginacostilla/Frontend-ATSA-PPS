@@ -6,7 +6,7 @@ const Register = () => {
       <div className="row justify-content-center">
         <div className="col-md-4 col-lg-10">
           <div className="text-center mt-4 tituloregistro">
-            <h1 className='mb-4'>REGÍSTRATE</h1>
+            <h2 className='mb-4'>REGÍSTRATE</h2>
           </div>
           <div>
             <Form>

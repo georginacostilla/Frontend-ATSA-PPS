@@ -1,20 +1,19 @@
-/* import UserContext from './context/UserContext';
-import Rutas from './components/routes/Rutas'; */
-import Footer from './components/footer/Footer';
-import Navigator from './components/navigate/Navigator';
-import '../src/App.css';
+import UserContext from "./context/UserContext";
+import Rutas from "./components/routes/Rutas";
+import Footer from "./components/footer/Footer";
+import Navigator from "./components/navigate/Navigator";
+import "../src/App.css";
 
 function App() {
-
   return (
     <>
-      {/* <UserContext>
+      <Navigator />
+      <UserContext>
         <Rutas />
-      </UserContext> */}
-      <Navigator/>
-      <Footer /> 
+      </UserContext>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

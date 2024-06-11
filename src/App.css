@@ -1,12 +1,12 @@
 :root {
 	--color-fondo: #f8f8ff;
 	--color-primario:#05103b;
-    --color-primarioDos: #778899;
-	--color-secundario: #000099;
+    --color-primarioDos: #ddd;
+	--color-secundario: #000037;
 	--color-secundarioDos: #0091d9;
 	--fuente-color-primario: #ffffff;
 	--fuente-color-secundario: #000;
-	--fuente-color-secundarioDos: #696969;
+	--fuente-color-secundarioDos: #778899;
     --btn-color:#d92118;
 	--fuente-principal: 'Roboto Condensed', sans-serif;
 	--fuente-secundaria: ;

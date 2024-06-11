@@ -1,14 +1,30 @@
-
 .color-fondo {
-    background-color: var(--color-primarioDos)
-}
-.centrar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--color-primarioDos);
 }
 
-.tamanio-iconos {
- font-size: 40px;
+.imgLogoATSA {
+  width: 120px;
+  height: 120px;
+}
+
+.tamanioRedes {
+  font-size: 25px;
+  color: var(--color-secundarioDos);
+}
+
+.tamanioRedes:hover {
+  color: var(--color-secundario);
+}
+
+/* login */
+
+.containerlogin {
+  border-radius: 10px;
+  border: 1px solid var(--fuente-color-secundarioDos);
+  padding: 50px;
+  box-shadow: 0px 3px 10px var(--color-secundarioDos);
+}
+
+.colorIconLogin {
+  color: var(--color-secundarioDos);
 }
