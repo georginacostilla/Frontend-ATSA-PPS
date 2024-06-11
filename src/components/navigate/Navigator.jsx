@@ -1,5 +1,5 @@
 import AdministratorButton from "./botonAdministrador/AdministratorButton";
-import imagenLogo from "../../assets/media/logo-cent74.jpeg";
+import imagenLogo from "../../assets/media/logo-cent74-removebg.png";
 import "./Navigator.css";
 
 const Navigator = () => {

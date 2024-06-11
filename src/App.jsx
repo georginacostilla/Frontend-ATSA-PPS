@@ -11,8 +11,8 @@ function App() {
       {/* <UserContext>
         <Rutas />
       </UserContext> */}
-      <Footer />
       <Navigator/>
+      <Footer /> 
     </>
   )
 }

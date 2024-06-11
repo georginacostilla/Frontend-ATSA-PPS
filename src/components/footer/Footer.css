@@ -1,0 +1,14 @@
+
+.color-fondo {
+    background-color: var(--color-primarioDos)
+}
+.centrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanio-iconos {
+ font-size: 40px;
+}
