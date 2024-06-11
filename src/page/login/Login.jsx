@@ -10,7 +10,7 @@ const Login = () => {
             <div className='container d-flex justify-content-center text-center m-5'>
                 <Form className='row d-flex flex-column containerlogin'>
                     <div className="mb-3 col">
-                        <FaUser className="tamanioRedes" size={35} />
+                        <FaUser className="colorIconLogin" size={35} />
                     </div>
 
                     <Form.Group className="mt-3 mb-3 col" controlId="formBasicEmail">
