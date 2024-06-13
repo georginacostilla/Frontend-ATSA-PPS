@@ -1,0 +1,34 @@
+.contenedor-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.parrafo1 {
+  color: var(--fuente-color-secundarioDos);
+  font-size: 80px;
+}
+
+.parrafo2 {
+  color: var(--fuente-color-secundarioDos);
+  font-size: 120px;
+
+}
+
+.parrafo3 {
+  color: var(--color-primario);
+  font-size: 30px;
+}
+
+.btn-reg {
+  background-color: var(--color-secundarioDos);
+  color: white;
+  text-align: center;
+  width: 200px;
+}
+
+.btn-reg:hover {
+  background-color: var(--color-secundarioDos);
+  color: white;
+}

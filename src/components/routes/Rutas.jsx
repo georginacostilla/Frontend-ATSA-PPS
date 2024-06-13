@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Login from '../../page/login/Login';
 import Register from '../../page/register/Register';
 import Home from '../../page/home/Home';
+import Error404 from '../../page/error404/Error404';
 
 const Rutas = () => {
     return (
@@ -10,6 +11,7 @@ const Rutas = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/logueo" element={<Login />} />
                 <Route path="/registro" element={<Register />} />
+                <Route path="*" element={<Error404 />} />
             </Routes>
         </>
     )
