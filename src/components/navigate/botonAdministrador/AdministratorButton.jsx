@@ -1,8 +1,8 @@
-
+import '../botonAdministrador/adminButton.css';
 
 const AdministratorButton = () => {
   return (
-    <button className="btn btn-info rounded-4">Administrador</button>
+    <button className="disenoBoton">Administrador</button>
   )
 }
 
