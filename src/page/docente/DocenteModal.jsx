@@ -42,8 +42,8 @@ const DocenteModal = () => {
                                 </form>
                              </div>
                             <div className="modal-footer">
-                            <button type="button" className="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="button" className="btn btn-primary">Guardar</button>
+                              <button type="button" className="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                              <button type="button" className="btn btn-primary">Guardar</button>
                             </div>
                         </div>
                     </div>
